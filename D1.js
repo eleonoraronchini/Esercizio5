@@ -22,7 +22,7 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var myName ="Eleonora";
+let myName ="Eleonora";
 console.log(myName);
 
 /* ESERCIZIO 3
@@ -49,7 +49,7 @@ console.log(x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var myName = "Ronchini";
+myName = "Ronchini";
 console.log(myName);
 
 const myEmail = "outlook";
