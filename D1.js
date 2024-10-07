@@ -8,28 +8,40 @@ REGOLE
 */
 
 /* ESERCIZIO 1
- Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
+ Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino. */
+/* SCRIVI QUI LA TUA RISPOSTA 
+1.String: rappresenta una sequenza di caratteri. Può essere definita con apici singoli, o doppi. Esempio "Ciao".
+ 2.Number: rappresenta sia numeri interi che decimali. Esempio 43 o 3.4.
+ 3.Boolean: rappresenta un valore logico che può essere true o false. Esempio let isActive = true. 
+ 4.Null: rappresenta l'assenza di valore, è un tipo di dato che indica che una variabile non ha valore. Esempio let a= null.
+ 5.Undefined: rappresenta una variabile dichiarata ma non inizializzata. Esempio let b; b è undefined. 
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+var myName ="Eleonora";
+console.log(myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let a= 12;
+let b= 20;
+let c = a + b;
+console.log(c)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12; 
+console.log(x)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -37,12 +49,20 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+var myName = "Ronchini";
+console.log(myName);
+
+const myEmail = "outlook";
+console.log (myEmail);
+
+const myEmail = "gmail";
+console.log (myEmail) /*Uncaught SyntaxError: redeclaration of const myEmail. ERRORE. */
 
 /* ESERCIZIO 6
- Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
-*/
+ Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log(4-x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -51,3 +71,9 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john"
+let name2 = "John"
+console.log("name1 !== name2", name1 !== name2);
+
+name2 = name2.toLowerCase();
+console.log("name1 == name2", name1 == name2);
